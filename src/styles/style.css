@@ -3,3 +3,36 @@ margin: 0; /* Espaçamentos externos */
 padding: 0; /* Espaçamentos internos*/
 box-sizing: border-box; /* Tamanho da caixa */
 }
+
+body {
+font-family: Arial;
+background-color: #f35636;
+padding: 20px;
+}
+
+div {
+    background-color: gray;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input {
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+
+.Adicionar {
+    background-color: aquamarine;
+    color: red;
+    padding: 5px;
+}
+li {
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 12px;
+
+    display: flex;
+    justify-content: space-between;
+}
